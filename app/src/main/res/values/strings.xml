@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">KotlinCalc</string>
+    <string name="percentaje">%</string>
+    <string name="positive_negative">+/-</string>
+    <string name="AC_label">AC</string>
+    <string name="start_">0</string>
+    <string name="division">/</string>
 </resources>
