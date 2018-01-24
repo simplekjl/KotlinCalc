@@ -31,30 +31,30 @@
 
             <Button
                 android:id="@+id/buAC"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:onClick="numberClicked"
-                android:layout_marginRight="1pt"
                 android:text="@string/AC_label"
                 tools:text="AC" />
 
             <Button
                 android:id="@+id/buSign"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
-                android:text="@string/positive_negative"
-                android:layout_marginRight="1pt"
                 android:onClick="numberClicked"
+                android:text="@string/positive_negative"
                 tools:text="+/-" />
 
             <Button
                 android:id="@+id/buPercentage"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
@@ -64,8 +64,8 @@
 
             <Button
                 android:id="@+id/buDivision"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
                 android:onClick="buOpSelected"
@@ -80,8 +80,8 @@
 
             <Button
                 android:id="@+id/bu7"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:text="7"
@@ -91,8 +91,8 @@
 
             <Button
                 android:id="@+id/bu8"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:text="8"
@@ -102,8 +102,8 @@
 
             <Button
                 android:id="@+id/bu9"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:text="9"
@@ -113,8 +113,8 @@
 
             <Button
                 android:id="@+id/buMult"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
                 android:onClick="buOpSelected"
@@ -130,8 +130,8 @@
 
             <Button
                 android:id="@+id/bu4"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:text="4"
@@ -141,8 +141,8 @@
 
             <Button
                 android:id="@+id/bu5"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:text="5"
@@ -152,8 +152,8 @@
 
             <Button
                 android:id="@+id/bu6"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:text="6"
@@ -163,8 +163,8 @@
 
             <Button
                 android:id="@+id/buMinus"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
                 android:onClick="buOpSelected"
@@ -181,8 +181,8 @@
 
             <Button
                 android:id="@+id/bu1"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:text="1"
@@ -192,8 +192,8 @@
 
             <Button
                 android:id="@+id/bu2"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:text="2"
@@ -204,7 +204,7 @@
             <Button
                 android:id="@+id/bu3"
                 android:layout_width="wrap_content"
-                android:layout_height="30pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:text="3"
@@ -214,8 +214,8 @@
 
             <Button
                 android:id="@+id/buPlus"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
                 android:onClick="buOpSelected"
@@ -236,19 +236,19 @@
 
             <Button
                 android:id="@+id/bu0"
-                android:layout_width="80pt"
-                android:layout_height="30pt"
+                android:layout_width="85pt"
+                android:layout_height="38pt"
+                android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:onClick="numberClicked"
                 android:text="0"
-                android:layout_marginRight="1pt"
                 tools:text="0" />
 
             <Button
                 android:id="@+id/buDot"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/white_background"
                 android:onClick="numberClicked"
@@ -258,8 +258,8 @@
 
             <Button
                 android:id="@+id/buResult"
-                android:layout_width="30pt"
-                android:layout_height="30pt"
+                android:layout_width="38pt"
+                android:layout_height="38pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
                 android:onClick="buResult"

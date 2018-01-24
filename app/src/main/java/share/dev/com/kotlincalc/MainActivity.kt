@@ -56,6 +56,7 @@ class MainActivity : AppCompatActivity() {
             }
             buAC.id -> {
                 value= "0"
+                isNewOperation = true
             }
 
             buSign.id -> {
@@ -92,15 +93,17 @@ class MainActivity : AppCompatActivity() {
             buPlus.id -> {
                 op = "+"
             }
-            buPercentage.id -> {
-                op = "%"
-            }
+
         }
         oldNumber = entryValues.text.toString()
         isNewOperation = true
 
     }
 
+    fun buPercentage(view : View ){
+        val number : Double = entryValues.text.toString().toDouble()/100
+        entryValues.setText(number.toString())
+    }
     fun buResult(view: View) {
         var newNumber = entryValues.text.toString()
         var finalNumber: Double? = null
